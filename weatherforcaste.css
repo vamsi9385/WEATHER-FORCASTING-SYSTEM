@@ -7,12 +7,17 @@
     font-family: 'Poppins', sans-serif;
 }
 nav {
-   background: none;
+   background: rgba(33, 207, 255, 0.676);
+   width: 500px;
+   margin:auto;
+   display: flex;
+   justify-content: center;
     color: #100202;
     height: 50px;
     border-radius: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+
+}
   
   nav ul {
     list-style: none;
@@ -47,17 +52,26 @@ nav {
   }
   
 body{
-    background-image: url('https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('https://wallpaperbat.com/img/310258-cold-weather-wallpaper.jpg');
 background-repeat: no-repeat;
-background-size: cover;}
+background-size: cover;
+
+background-attachment: fixed;
+}
 
 .container {
-    background: linear-gradient(90deg, rgb(244, 130, 16) 0%, rgb(223, 189, 52) 35%, rgb(241, 248, 63) 100%);
+    background:linear-gradient(90deg, rgba(0, 200, 255, 0.511) 0%, rgb(95, 220, 254) 50% ,rgb(11, 202, 255) 100%);
+    opacity: 0.9;
     color: #fff;
     padding: 2rem;
     width: 40%;
     margin: 4rem auto;
-    border-radius: 10px;
+    border-radius: 30px;
+    
+}
+
+.weather__searchform:hover{
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.689); 
 }
 
 .weather__header {
@@ -95,10 +109,12 @@ input::placeholder {
 
 .weather__units {
     font-size: 1.5rem;
+    display: flex;
 }
 
 .weather__units span {
     cursor: pointer;
+    color: ;
 }
 
 .weather__units span:first-child {
@@ -107,13 +123,9 @@ input::placeholder {
 
 .weather__body {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
-.weather__datetime {
-    margin-bottom: 2rem;
-    font-size: 14px;
-}
 
 .weather__forecast {
     background: #1e1e1e;
@@ -128,11 +140,18 @@ input::placeholder {
 
 .weather__temperature {
     font-size: 1.75rem;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin: auto;
+    border-radius: 30px;
+    margin-bottom: 5px;
 }
 
 .weather__minmax {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .weather__minmax p {
@@ -181,6 +200,27 @@ input::placeholder {
 
 @media(max-width: 400px){
     .weather__info {
-        grid-template-columns: none;
+        grid-template-c olumns: none;
     }
+}
+
+.weather__search {
+    display: flex;
+}
+
+button{
+    background-color: #0c0202;
+    color:white;
+    border-radius: 50%;
+    size: 50px;
+    margin-left: px;
+}
+
+marquee{
+    color: #ffffff;
+    background-color: rgba(255, 3, 3, 0.279);
+}
+
+.temp{
+    color: #0c0202;
 }
