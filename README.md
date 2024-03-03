@@ -1,2 +1,1 @@
-Here's a Front-end Developed for the weather forcasting system to predect the weather and this project has been developed under the guidence of Asst.Prof.Mrs. Ranjani M.
-In this you can predect Temperature,Humidity,Pressure,Wind Speed once backend developement.
+This project predects the weather acuuretly based on diffrent locations.The api has been used to get the data from the internet and dispalys the temperature,min temp,max temp,humidity,wind speed and the pressure at the desired locaton
