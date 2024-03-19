@@ -1,1 +1,2 @@
 This project predects the weather acuuretly based on diffrent locations.The api has been used to get the data from the internet and dispalys the temperature,min temp,max temp,humidity,wind speed and the pressure at the desired locaton
+https://vamsi9385.github.io/WEATHER-FORCASTING-SYSTEM/
